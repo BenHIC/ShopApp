@@ -23,9 +23,9 @@ import { AuthModule } from './auth/auth.module';
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
-    AuthModule,
-    RecipesModule,
-    ShoppingListModule,
+    // AuthModule, // For lazyloading
+    // RecipesModule, // For lazyloading
+    // ShoppingListModule, // For lazyloading
     SharedModule,
     CoreModule,
   ],

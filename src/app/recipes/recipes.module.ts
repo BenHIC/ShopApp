@@ -28,7 +28,7 @@ import { SharedModule } from '../shared/shared.module';
     RecipesRoutingModule,
     SharedModule
   ],
-  // exports: [
+  // exports: [ // Don't need to export Component, instead export Module
   //   RecipesComponent,
   //   RecipeListComponent,
   //   RecipeDetailComponent,
