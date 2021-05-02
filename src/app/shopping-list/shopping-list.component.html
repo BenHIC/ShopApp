@@ -4,8 +4,9 @@
     <!-- (ingredientAdded)="onIngredientAdded($event)"></app-shopping-edit> -->
     <hr>
     <ul class="list-group">
-      <a class="list-group-item" style="cursor: pointer" *ngFor="let item of ingredients; let i = index"
-        (click)="onEditItem(i)">
+      <!-- <a class="list-group-item" style="cursor: pointer" *ngFor="let item of ingredients; let i = index" (click)="onEditItem(i)"> -->
+      <a class="list-group-item" style="cursor: pointer"
+        *ngFor="let item of (ingredientsRxjs | async).ingredients; let i = index" (click)="onEditItem(i)">
         {{ item.name }} {{ item.amount }}
       </a>
     </ul>
