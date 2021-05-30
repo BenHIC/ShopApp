@@ -5,8 +5,8 @@ import { Subject } from 'rxjs';
 @Injectable()
 export class ShoppingListService {
   private ingredients: Ingredient[] = [
-    new Ingredient('Apple', '5'),
-    new Ingredient('Tomato', '10')
+    new Ingredient('Apple', 5),
+    new Ingredient('Tomato', 10)
   ];
 
   // ingredientsChanged = new EventEmitter<Ingredient[]>();

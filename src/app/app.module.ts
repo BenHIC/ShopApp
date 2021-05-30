@@ -25,7 +25,7 @@ import { shoppingListReducer } from './shopping-list/store/shopping-list.reducer
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
-    StoreModule.forRoot({ shoppingList: shoppingListReducer }),
+    StoreModule.forRoot({shoppingList: shoppingListReducer}),
     // AuthModule, // For lazyloading
     // RecipesModule, // For lazyloading
     // ShoppingListModule, // For lazyloading
